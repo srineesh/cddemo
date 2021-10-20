@@ -1,4 +1,4 @@
 {
     "incrementAmount" : 5, 
-    "secretkey" : "secret key which CANNOT be used in source control"
+    "secretKey" : "secret key which CANNOT be used in source control"
 }
