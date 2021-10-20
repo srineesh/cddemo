@@ -9,6 +9,6 @@ import 'package:stagingapp/app/app.dart';
 import 'package:stagingapp/envinorment.dart';
 import 'package:stagingapp/main_staging.dart';
 
-Future<void> main() async {
+Future<void> main_dev() async {
   await main_staging(Envinorment.dev);
 }
