@@ -9,5 +9,5 @@ import 'package:stagingapp/envinorment.dart';
 import 'package:stagingapp/main_staging.dart';
 
 Future<void> main() async {
-  await main_staging(Envinorment.prod);
+  await main_staging(Environment.prod);
 }

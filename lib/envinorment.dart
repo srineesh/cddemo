@@ -1,4 +1,4 @@
-abstract class Envinorment {
-  static const dev = "dev";
-  static const prod = "prod";
+abstract class Environment {
+  static const dev = 'development';
+  static const prod = 'prod';
 }

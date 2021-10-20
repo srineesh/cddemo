@@ -17,19 +17,18 @@ Future<void> main_staging(String env) async {
 
   Color? primaryColor;
   switch (env) {
-    case Envinorment.dev:
+    case Environment.dev:
       primaryColor = Colors.blue;
       break;
-    case Envinorment.prod:
+    case Environment.prod:
       primaryColor = Colors.red;
       break;
   }
-  runApp(
-    Provider.value(
-      value: primaryColor,
-      child: MyApp(),
-    ),
-  );
+
+  runApp(Provider.value(
+    value: primaryColor,
+    child: MyApp(),
+  ));
 }
 
 class MyApp extends StatelessWidget {
